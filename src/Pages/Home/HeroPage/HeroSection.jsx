@@ -5,7 +5,7 @@ import { SiGmail } from "react-icons/si";
 import { BiLogoTelegram } from "react-icons/bi";
 import whatsapp from "../../../assets/images/whatsapp.png";
 export default function HeroSection() {
-  const phoneNumber = "+12013782770";
+  const phoneNumber = "+15512442572";
   const WhatsappClick = () => {
     const url = `https://wa.me/${phoneNumber}`;
     window.open(url, "_blank");
@@ -14,7 +14,7 @@ export default function HeroSection() {
     <section id="heroSection" className="hero--section">
       <div className="hero--section--content--box">
         <div className="hero--section--content">
-          <p className="section--title">Laura Walsh Morgan</p>
+          <p className="section--title">Elizabeth Ann Martins</p>
           <h1 className="hero--section--title">
             <span className="hero--section-title--color">
               Crypto Trading Expert
@@ -22,7 +22,7 @@ export default function HeroSection() {
             <br />
           </h1>
           <p className="hero--section-description">
-            Laura Walsh Morgan owns ELITE GLOBE Which provides investment
+            Elizabeth Ann Martins owns ELITE GLOBE Which provides investment
             advisory service for clients.
             {/* I am a crypto trading expert who possess a deep understanding on
             different cryptocurrencies, market dynamics, technical analysis,
@@ -34,19 +34,19 @@ export default function HeroSection() {
               <span>
                 <SiGmail />
               </span>
-              <span>laurawalshmorgan@gmail.com</span>{" "}
+              <span>Elizabethannmartins@gmail.com</span>{" "}
             </div>
             <div>
               <span>
                 <BiLogoTelegram />
               </span>
-              <span>@Laurawalshmorgan</span>{" "}
+              <span>@ElizabethAnnMartins</span>{" "}
             </div>
             <div>
               <span>
                 <IoCall />
               </span>
-              <span>+12013782770</span>{" "}
+              <span>+15512442572</span>{" "}
             </div>
           </div>
         </div>
